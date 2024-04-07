@@ -33,7 +33,8 @@ header {
 }
 
 section,
-nav > ul {
+nav > ul,
+.home-link {
     font-size: large;
 }
 
@@ -49,6 +50,10 @@ hr {
 
 a {
     color: $main-blue;
+}
+
+.home-link {
+    font-weight: bold;
 }
 
 #banner {
