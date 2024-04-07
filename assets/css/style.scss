@@ -16,6 +16,7 @@ $btn-main: linear-gradient(#e5e5e5, #959da5);
 $btn-hover: linear-gradient(#eaeaea, #a4abb1);
 
 body {
+    max-width: 100vw;
     background: none;
     background-color: $main-bg;
 }
