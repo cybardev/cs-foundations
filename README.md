@@ -16,6 +16,8 @@ Knowledge Base for Foundational Computer Science Topics
 
 ### Extras
 
+- [LinkedIn](contents/linkedin.md)
+- [Website](contents/website.md)
 - [Vim](contents/vim.md)
 
 ## What
