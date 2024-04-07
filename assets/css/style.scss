@@ -37,6 +37,11 @@ hr {
     background: linear-gradient(#e5e5e5, #959da5);
 }
 
+#banner .button:hover {
+    background: linear-gradient(#eaeaea, #a4abb1);
+    background-color: #888;
+}
+
 #banner .fork {
     background-color: inherit;
 }
