@@ -13,11 +13,14 @@ body {
 }
 
 header {
-    background: none;
-    background-color: #2980b9;
+    background: #2980b9;
 
     h1 {
         font: 40px/48px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    p {
+        color: whitesmoke;
     }
 }
 
