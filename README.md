@@ -7,14 +7,14 @@
 
 ### Core
 
-- [Git](docs/git.md)
-- [GitHub](docs/github.md)
-- [VS Code](docs/vscode.md)
-- [Git and GitHub on VS Code](docs/vscode-git.md)
-- [Operating Systems, Linux, and SSH](docs/os-intro.md)
-- [Linux command-line and Shell scripting](docs/linux-shell.md)
-- [Reading Documentation](docs/documentation.md)
+- [Git](contents/git.md)
+- [GitHub](contents/github.md)
+- [VS Code](contents/vscode.md)
+- [Git and GitHub on VS Code](contents/vscode-git.md)
+- [Operating Systems, Linux, and SSH](contents/os-intro.md)
+- [Linux command-line and Shell scripting](contents/linux-shell.md)
+- [Reading Documentation](contents/documentation.md)
 
 ### Booster
 
-- [Vim](docs/vim.md)
+- [Vim](contents/vim.md)
