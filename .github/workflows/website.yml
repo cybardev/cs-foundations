@@ -34,7 +34,7 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v4
             - name: Setup Ruby
-              uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+              uses: ruby/setup-ruby@v1
               with:
                   ruby-version: "3.1" # Not needed with a .ruby-version file
                   bundler-cache: true # runs 'bundle install' and caches installed gems automatically
@@ -43,11 +43,10 @@ jobs:
               id: pages
               uses: actions/configure-pages@v5
             - name: Build with Jekyll
-              # Outputs to the './_site' directory by default
+              # Outputs to the './_site' directory by default and adds favicon to the output directory
               run: |
                   bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
                   mv ./_site/assets/favicon.ico ./_site/
-                  echo "learn.cybar.dev" > ./_site/CNAME
               env:
                   JEKYLL_ENV: production
             - name: Upload artifact
