@@ -15,10 +15,10 @@ body {
 header {
     background: none;
     background-color: #2980b9;
-}
 
-header h1 {
-    font: 40px/48px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    h1 {
+        font: 40px/48px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
 }
 
 ul {
@@ -31,27 +31,31 @@ hr {
     background: none;
 }
 
+footer a {
+    color: #205e88;
+}
+
 #banner {
     background: #343131;
     border: 1px solid #151515;
-}
 
-#banner #logo {
-    display: none;
-}
+    #logo {
+        display: none;
+    }
 
-#banner .button {
-    border: 1px solid #888;
-    background: linear-gradient(#e5e5e5, #959da5);
-}
+    .button {
+        border: 1px solid #888;
+        background: linear-gradient(#e5e5e5, #959da5);
+    }
 
-#banner .button:hover {
-    background: linear-gradient(#eaeaea, #a4abb1);
-    background-color: #888;
-}
+    .button:hover {
+        background: linear-gradient(#eaeaea, #a4abb1);
+        background-color: #888;
+    }
 
-#banner .fork {
-    background-color: inherit;
+    .fork {
+        background-color: inherit;
+    }
 }
 
 @media print, screen and (max-width: 1060px) {
@@ -59,6 +63,15 @@ hr {
     section h1,
     footer h1 {
         white-space: break-spaces;
+    }
+
+    section {
+        padding: 16px;
+
+        ul li {
+            font-size: large;
+            margin-block: 10px;
+        }
     }
 }
 
@@ -71,9 +84,5 @@ hr {
 @media print, screen and (max-width: 480px) {
     header h1 {
         font-size: x-large;
-    }
-
-    section {
-        padding: 16px;
     }
 }
