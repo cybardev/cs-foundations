@@ -14,7 +14,7 @@ Knowledge Base for Foundational Computer Science Topics
 - [Linux command-line and Shell scripting](contents/linux-shell.md)
 - [Reading Documentation](contents/documentation.md)
 
-### Booster
+### Extras
 
 - [Vim](contents/vim.md)
 
