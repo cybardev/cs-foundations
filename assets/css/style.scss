@@ -62,11 +62,15 @@ a {
     .button {
         border: 1px solid #888;
         background: $btn-main;
-    }
 
-    .button:hover {
-        background: $btn-hover;
-        background-color: #888;
+        &:hover {
+            background: $btn-hover;
+            background-color: #888;
+        }
+
+        &:active {
+            background: $btn-main;
+        }
     }
 
     .fork {
