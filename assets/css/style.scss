@@ -7,13 +7,21 @@
     This stylesheet is inspired by https://docs.readthedocs.io/en/stable/
 */
 
+// theme colours
+$main-blue: #205e88;
+$main-bg: #efefef;
+$banner-bg: #343131;
+$banner-border: #151515;
+$btn-main: linear-gradient(#e5e5e5, #959da5);
+$btn-hover: linear-gradient(#eaeaea, #a4abb1);
+
 body {
     background: none;
-    background-color: #efefef;
+    background-color: $main-bg;
 }
 
 header {
-    background: #2980b9;
+    background: $main-blue;
 
     h1 {
         font: 40px/48px "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -39,13 +47,13 @@ hr {
     background: none;
 }
 
-footer a {
-    color: #205e88;
+a {
+    color: $main-blue;
 }
 
 #banner {
-    background: #343131;
-    border: 1px solid #151515;
+    background: $banner-bg;
+    border: 1px solid $banner-border;
 
     #logo {
         display: none;
@@ -53,11 +61,11 @@ footer a {
 
     .button {
         border: 1px solid #888;
-        background: linear-gradient(#e5e5e5, #959da5);
+        background: $btn-main;
     }
 
     .button:hover {
-        background: linear-gradient(#eaeaea, #a4abb1);
+        background: $btn-hover;
         background-color: #888;
     }
 
