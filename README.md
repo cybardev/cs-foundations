@@ -2,7 +2,7 @@
 
 Knowledge Base for Foundational Computer Science Topics
 
-## Table of Contents
+## Contents
 
 ### Core
 
