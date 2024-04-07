@@ -1,14 +1,17 @@
+# jekyll config
 remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
     - jekyll-remote-theme
 
 repository: cybardev/cs-foundations
 
-title: Computer Science Foundations
-description: Knowledge Base for Foundational Computer Science Topics
-show_downloads: false
-
+# creates a static files directory at /_static/
 collections:
     static:
         output: true
         permalink: /:path
+
+# site config
+title: Computer Science Foundations
+description: Knowledge Base for Foundational Computer Science Topics
+show_downloads: false
