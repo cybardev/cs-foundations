@@ -7,3 +7,8 @@ repository: cybardev/cs-foundations
 title: Computer Science Foundations
 description: Knowledge Base for Foundational Computer Science Topics
 show_downloads: false
+
+collections:
+    static:
+        output: true
+        permalink: /:path
