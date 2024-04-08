@@ -18,6 +18,7 @@ Knowledge Base for Foundational Computer Science Topics
 
 - [LinkedIn](contents/linkedin.md)
 - [Website](contents/website.md)
+- [APIs](contents/api.md)
 - [Vim](contents/vim.md)
 
 ## What
