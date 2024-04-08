@@ -16,6 +16,7 @@ Knowledge Base for Foundational Computer Science Topics
 
 ### Extras
 
+- [Projects](contents/projects.md)
 - [LinkedIn](contents/linkedin.md)
 - [Website](contents/website.md)
 - [APIs](contents/api.md)
