@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 /**
-    This stylesheet is inspired by https://docs.readthedocs.io/en/stable/
+    The colours in this stylesheet are inspired by https://docs.readthedocs.io/en/stable/
 */
 
 // theme colours
@@ -23,10 +23,6 @@ body {
 
 header {
     background: $main-blue;
-
-    h1 {
-        font: 40px/48px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
 
     p {
         color: whitesmoke;
