@@ -291,6 +291,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-sitemap (~> 1.4)
   rubocop (~> 1.62)
   webrick (~> 1.8)
 

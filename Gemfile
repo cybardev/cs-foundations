@@ -5,4 +5,7 @@ source 'https://rubygems.org'
 gem 'rubocop', '~> 1.62'
 gem 'webrick', '~> 1.8'
 
-gem 'github-pages', group: :jekyll_plugins
+group :jekyll_plugins do
+  gem 'github-pages'
+  gem 'jekyll-sitemap', '~> 1.4'
+end
