@@ -43,9 +43,12 @@ jobs:
               id: pages
               uses: actions/configure-pages@v5
             - name: Build with Jekyll
-              # Outputs to the './_site' directory by default and adds favicon to the output directory
+              # Outputs to the './_site' directory by default
               run: |
                   bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+                  rm -rf ./_site/assets/images
+                  rm -f ./_site/contents/*.md
+                  rm -f ./_site/*.md
               env:
                   JEKYLL_ENV: production
             - name: Upload artifact
