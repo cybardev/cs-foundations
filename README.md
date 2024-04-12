@@ -14,6 +14,7 @@ Knowledge Base for Foundational Computer Science Topics
 - [Linux command-line and Shell scripting](contents/linux-shell.md)
 - [Reading Documentation](contents/documentation.md)
 
+<!-- DRAFT --
 ### Extras
 
 - [Projects](contents/projects.md)
@@ -21,6 +22,7 @@ Knowledge Base for Foundational Computer Science Topics
 - [Website](contents/website.md)
 - [APIs](contents/api.md)
 - [Vim](contents/vim.md)
+<!-- END -->
 
 ## What
 
