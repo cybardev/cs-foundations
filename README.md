@@ -14,9 +14,10 @@ Knowledge Base for Foundational Computer Science Topics
 - [Linux command-line and Shell scripting](contents/linux-shell.md)
 - [Reading Documentation](contents/documentation.md)
 
-<!-- DRAFT --
 ### Extras
+> _Coming Soon..._
 
+<!-- DRAFT --
 - [Projects](contents/projects.md)
 - [LinkedIn](contents/linkedin.md)
 - [Website](contents/website.md)
