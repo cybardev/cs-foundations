@@ -15,6 +15,7 @@ Knowledge Base for Foundational Computer Science Topics
 - [Reading Documentation](contents/documentation.md)
 
 ### Extras
+
 > _Coming Soon..._
 
 <!-- DRAFT --
