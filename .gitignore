@@ -13,3 +13,6 @@ vendor/
 
 # nix
 .direnv
+
+# misc
+.ruby-lsp
