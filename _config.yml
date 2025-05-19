@@ -1,5 +1,5 @@
 # jekyll config
-url: https://learn.cybar.dev
+url: https://www.cybar.dev/cs-foundations
 remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
     - jekyll-remote-theme
